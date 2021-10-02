@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <nav class="Navigation-container">
+    <title>Portfolio</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <nav class="Navigation container">
         <div class="Nav-head">Kabir Singh Portfolio</div>
         <ul class="Nav-listItems">
             <li class="Nav-options-inline"> <a class="link Link-active" href="somehtml">Home</a></li>
@@ -16,14 +15,67 @@
             <li class="Nav-options-inline"> <a class="link" href="somehtml">Blogs</a></li>
         </ul>
     </nav>
-    <header class="Character">
-        <img class="Character-image" src="imagessvg"/>
-        <h1 class="Character-Head">Welcome To My Page Guys! <span class="Character-Head-inverted">Scroll down and Explore</span></h1>
+
+    <header class="hero">
+        <img class="hero-img" src="/images/hero.svg">
+        <h1 class="hero-heading">Hi, I'm <span class="hero-heading-inverted">Kabir Singh</span></h1>
+        <h2 class="hero-sub-heading">Front-End Web Developer</h2>
     </header>
-    <section class= "section-coloured">
-        <div class="container container-center">
-            <h1></h1>
+    <section class="section ow">
+        <div class="container-center">
+            <h1>Tech Stack</h1>
+            <p style="text-align: center;">HTML5 | CSS3 | JavaScript | React.js | Python | UI/UX | Java | C | C++ |
+                Web Hosting | Git | GitHub</p>
         </div>
+
     </section>
+
+    <section id="projects" class="section">
+        <div class="container-center">
+            <h1>Projects</h1>
+            <p style="text-align: center;">I like to build <span class="p-heading-inverted">interactive projects</span>
+                and keep them hosted. Checkout my projects <span class="p-heading-inverted">in action.</span></p>
+            <a class="link link-primary" href="projects.html">Browse Projects</a>
+        </div>
+
+    </section>
+
+    <section id="blogs" class="section ow">
+        <div class="container-center">
+            <h1>Blogs</h1>
+            <p style="text-align: center;">I am an Engineer, freelancer and a techblogger who loves to make beautiful and pleasing to the eyes things.</p>
+
+            <a class="link link-secondary" href="blogs.html">Read Blogs</a>
+        </div>
+
+    </section>
+
+    <footer>
+        <ul>
+            <li class="footerLink">
+                <a href="https://github.com/kabirkabby">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="footerLink">
+                <a href="https://twitter.com/KabirKabby">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="footerLink">
+                <a href="https://www.linkedin.com/in/kabirsingh77/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="footerLink">
+                <a href="https://kabirsingh77.netlify.app/">
+                    <i class="fas fa-briefcase"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
 </body>
+
 </html>
